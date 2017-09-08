@@ -1,0 +1,12 @@
+development:
+  adapter: postgresql
+  database: groups_api_development
+  username: juandgirald
+  password: postres
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: groups_api_test
+  username: juandgirald
+  host: localhost
