@@ -49,3 +49,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # soft delete records
 gem "paranoia", "~> 2.2"
+
+# API documentation
+gem 'apipie-rails'
