@@ -17,6 +17,13 @@ The project use PostgreSQL as database. Setup your local database and modify dat
 rake db:migrate
 ```
 
+then run:
+
+```
+rails server
+```
+
+
 ## Running the tests
 
 Before run the specs you must run the following command:
