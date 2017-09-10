@@ -1,7 +1,8 @@
 module Api::V1
   class GroupEventsController < ApiController
-    before_action :set_group_event, only: [:show, :update, :destroy]
+    include Api::V1::GroupEventsDoc
     include ErrorSerializer
+    before_action :set_group_event, only: [:show, :update, :destroy]
 
     # GET /group_events
     # query? "published, draft, deleted, all, all_events"

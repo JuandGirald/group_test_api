@@ -36,7 +36,7 @@ rspec
 You will find an API documentation at the following url in your local with all the enpoints and specifications for each one.
 
 ```
-Bundle install
+http://localhost:3000/apidoc
 ```
 
 ## Authors
