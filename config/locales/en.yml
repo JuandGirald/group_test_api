@@ -31,3 +31,8 @@
 
 en:
   hello: "Hello world"
+  event: 
+    field_missings: "You need to fill at least one of this fields: duration or end_date."
+    invalid_date: "should be minor or equal to start_date."
+    none_fields: "You should provide at least one field in order to save the event"
+
